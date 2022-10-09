@@ -1,0 +1,22 @@
+{
+  "name": "ddamp-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.2.0",
+    "@discordjs/rest": "^1.2.0",
+    "custom-translate": "^2.2.8",
+    "discord-api-types": "^0.37.11",
+    "discord.js": "^14.5.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "ms": "^2.1.3"
+  }
+}
