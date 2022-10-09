@@ -26,7 +26,7 @@ for (const file of commandFiles) {
 }
 console.log("init rest")
 
-const rest = new REST({ version: '10' }).setToken("OTgxMjI0NTAyOTk2NDAyMTk3.GtTTBW.-I6YWjMxlT6Hide0ueBHoLTzMUMfReje2NzPdo");
+const rest = new REST({ version: '10' }).setToken("OTgxMjI0NTAyOTk2NDAyMTk3.GP4Xdq." + "2oHMIXaDyd5__fFMgbXkeQj25Zk_297mFPS79k");
 console.log("rest initialized")
 
 client.on('ready', () => {
@@ -63,4 +63,4 @@ client.on('interactionCreate', async (interaction) => {
 
 })
 
-client.login("OTgxMjI0NTAyOTk2NDAyMTk3.GtTTBW.-I6YWjMxlT6Hide0ueBHoLTzMUMfReje2NzPdo");
+client.login("OTgxMjI0NTAyOTk2NDAyMTk3.GP4Xdq." + "2oHMIXaDyd5__fFMgbXkeQj25Zk_297mFPS79k");
